@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using OnlineEdu.DTO.DTOs.FeatureDTOs;
 
-namespace OnlineEdu.Entity.Entities
+namespace OnlineEdu.DTO.DTOs.AboutDTOs
 {
-    public class About
+    public class ResultAboutDTO
     {
         public int AboutID { get; set; }
         public string Title { get; set; }
@@ -10,6 +10,6 @@ namespace OnlineEdu.Entity.Entities
         public string Description { get; set; }
         public string ImageURL1 { get; set; }
         public string ImageURL2 { get; set; }
-        public List<Feature> Features { get; set; }
+        public List<ResultFeatureDTO> Features { get; set; }
     }
 }
